@@ -1,0 +1,212 @@
+.list{list-style: none;display: flex;gap: 30px;
+}
+.button{border: none;background-color: orangered;color: white;height: 33px;width: 110px;margin-top:10px;margin-left: 25px;
+}
+.nav{
+    display: flex;gap:130px;font-family: sans-serif;color: white;
+}
+.navbar{display:flex;justify-content:center;
+}
+
+.sheraz{
+    margin-top: 15px;font-size: x-large;
+}
+ .S{ 
+     color: orangered;
+}
+.hisheraz{
+    font-size:large;font-family: sans-serif;margin-top: 100px;padding-left: 14%;
+}
+.hi{
+color:orangered;}
+.freelance{color: white;
+}
+.main{
+    background-image: 
+    linear-gradient(to left,
+     rgba(223,219,219,0.1),
+     rgb(0,0, 0)),
+    url("./background-image.png"); 
+    background-size: cover;height: 550px;
+}
+.Contactme{border: none;background-color:white;height: 33px;width: 110px;margin-top:10px;margin-left: 25px;
+}
+.btn{
+    margin-left: 12%;
+}
+.container{
+    width: 125%;background-color: lightgray;height: 15px;margin-top: 18px;
+    }
+    .mysql{
+    width: 93%;background-color: red;text-align: end;height: 15px;
+    }
+    .progressbar{
+    padding-left:20%;
+    }
+    .graphicdesign{
+    width: 96%;background-color:red ;text-align: end;height: 15px;
+    }
+    .appdesign{
+    width: 88%;background-color: red;text-align: end;height: 15px;
+    }
+    .Services{
+    text-align: center;
+    }
+    .box{
+    box-sizing: border-box;background-color:antiquewhite;height: 220px;width: 195px;border-radius: 4% 4%;
+    }
+    .logo1{
+    margin-top: 25px;margin-left: 10px;
+    }
+    .logo{
+    margin-top: 10px;margin-left: 10px;
+    }
+    .mainbox{
+    display: flex;gap: 20px;justify-content: center;margin-top: 40px;flex-wrap: wrap;
+    }
+    .Projects{
+    text-align: center;margin-top: 50px;
+    }
+    .project{
+    display: flex;gap:30px;justify-content: center;
+    }
+    .all{
+    background-color:antiquewhite;height:25px;width: 30px;display: flex; justify-content:center;align-items: center;
+    }
+    .uixudesign{
+    background-color:orangered;color: white;height:25px;width:130px;display: flex;
+    justify-content:center;align-items: center;border-radius: 10% 10%;
+    }
+    .app{
+    background-color:antiquewhite;height:25px;width:100px;display: flex; justify-content:center;align-items: center;
+    }
+    .graphic{
+    background-color:antiquewhite;height:25px;width:120px;display: flex; justify-content:center;align-items: center;
+    }
+    .web{
+    background-color:antiquewhite;height:25px;width:100px;display: flex; justify-content:center;align-items: center;
+    }
+    .image10{
+    /* background-image:url(image\ 9.png);height: 500px; */
+    }
+    .Testimonials{
+    text-align: center;color: white;
+    }
+    .star{
+    position: relative;
+
+    display: inline-block;
+    width: 0;
+    height: 0;
+
+    margin-left: .2em;
+    margin-right: .9em;
+    margin-bottom: 1.2em;
+
+
+    border-right: .3em solid transparent;
+    border-bottom: .7em solid white;
+    border-left: .3em solid transparent;
+
+    /* Controlls the size of the stars. */
+    font-size:10px;
+
+    &:before, &:after {
+    content: '';
+
+    display: block;
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    top: .6em;
+    left: -1em;
+
+    border-right: 1em solid transparent;
+    border-bottom: .7em solid white;
+    border-left: 1em solid transparent;
+
+    transform: rotate(-35deg);
+    }
+
+    &:after {
+    transform: rotate(35deg);
+    }
+    }
+    
+    .fieldset{
+        height:250px;width: 165px;border-radius: 5%;color:white;border-color:black;
+    }
+    .gropuimage{
+        height: 100px;width: 100px;border-radius: 100%;
+    }
+    .mainfield{
+        display: flex;justify-content: center;gap: 20px;flex-wrap: wrap;border-color:;
+    }
+    #cntme{
+    text-align: center;margin-top: 80px;color: white;
+    }
+    #button{
+    width: 25%;height:40px;padding-right: 16%;border: none;border-radius: 4% 4%;background-color:white;
+    }
+    #btn{
+    height: 40px;width:10%; border: none;border-radius: 4% 4%; background-color: gray;margin-left: 20px;color:
+    white;
+    }
+    .input{
+    height: 40px;width:30%; border: none;border-radius: 4% 4%;     
+    }
+    .twobutton {
+    text-align: center;
+    }
+    #sheraz{
+    font-size: x-large;text-align: center;padding-top:3%;
+    }
+    .homeabout{
+    word-spacing: 20px;text-align: center;text-align: center;font-family: sans-serif;margin-top:35px;
+    }
+    .logos{
+    height: 35px;display: flex;justify-content: center;gap: 50px;margin-top: 50px;
+    }
+    .she{
+    color: red;font-family: sans-serif;
+    }
+    .allrights{
+    font-family: sans-serif;text-align: center;margin-top: 20px;
+    }
+    .lastpart{
+        background-color: pink;
+    }
+    .container {
+        position: relative;
+        display: inline-block;
+        z-index: -1;
+      }
+      .top-image {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: -1;
+      }
+      .togetherimages{
+        flex-wrap: wrap;
+      }
+
+      @media screen and (max-width: 545px) {
+        .project{visibility: hidden;
+          
+        }
+    }      
+    @media screen and (max-width:818px) {
+        #btn{width: 90px;
+          
+        }
+    }      
+    @media screen and (max-width:818px) {
+        .homeabout{word-spacing:-1px;
+          
+        }
+    }
+  
+ 
+    /* background-image: linear-gradient(to left,rgba(223,219,219,0.7),rgb(0,0,0.5)), url('background-image.png');height: 550px;background-repeat: no-repeat;background-size: cover; */
